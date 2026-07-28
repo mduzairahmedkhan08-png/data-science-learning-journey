@@ -4,7 +4,7 @@
 
 This repository documents my learning journey in Data Science through hands-on assignments, practical implementations, datasets, and mini projects.
 
-The objective of this repository is to build a strong foundation in Data Science by learning concepts through implementation rather than theory alone. Every module contains organized learning materials, Jupyter notebooks, datasets, assignment documents, and project work where applicable.
+The objective of this repository is to build a strong foundation in Data Science by learning concepts through implementation rather than theory alone. Every module contains organized learning materials, Jupyter notebooks, datasets, assignment documents, reference materials, and project work where applicable.
 
 The repository will continue to grow as I complete additional topics and projects.
 
@@ -16,7 +16,8 @@ The repository will continue to grow as I complete additional topics and project
 - Learn data manipulation and analysis using NumPy and Pandas.
 - Understand statistical concepts required for Machine Learning.
 - Perform Exploratory Data Analysis on real-world datasets.
-- Build and evaluate Machine Learning models.
+- Build and evaluate Machine Learning and Deep Learning models.
+- Understand Natural Language Processing techniques.
 - Develop deployable Machine Learning applications.
 - Maintain a structured portfolio that reflects continuous learning.
 
@@ -31,6 +32,11 @@ The repository will continue to grow as I complete additional topics and project
 - Matplotlib
 - Seaborn
 - Scikit-learn
+- TensorFlow
+- Keras
+- XGBoost
+- LightGBM
+- NLTK
 - Streamlit
 - Joblib
 
@@ -49,11 +55,35 @@ data-science-learning-journey/
 ├── 05_Hypothesis_Testing/
 ├── 06_Multiple_Linear_Regression/
 ├── 07_Logistic_Regression/
-│   └── Diabetes_Prediction_App/
 ├── 08_Data_Transformation/
 ├── 09_Support_Vector_Machines/
-└── ...
+├── 10_Decision_Tree/
+├── 11_Random_Forest/
+├── 12_XGBoost_LightGBM/
+├── 13_Principal_Component_Analysis/
+├── 14_Clustering/
+├── 15_Recommendation_Systems/
+├── 16_Time_Series_Forecasting/
+├── 17_Neural_Networks/
+├── 18_Natural_Language_Processing/
+└── 19_Recurrent_Neural_Networks/
 ```
+
+---
+
+## Repository Contents
+
+Each module is organized in a similar structure to make learning easy to follow.
+
+Typical contents include:
+
+- Assignment Question Document (.docx)
+- Reference Material (.docx / .txt)
+- Dataset(s)
+- Jupyter Notebook (.ipynb)
+- Supporting Files (where applicable)
+
+The notebooks contain complete implementations including data preprocessing, visualization, model building, evaluation, and conclusions.
 
 ---
 
@@ -69,8 +99,10 @@ Topics covered include:
 - Loops
 - Functions
 - User Input
-- Random Module
-- Problem Solving using Python
+- Modules
+- File Handling
+- Exception Handling
+- Problem Solving
 
 Contents
 
@@ -87,17 +119,17 @@ Topics covered include:
 - Tuples
 - Sets
 - Dictionaries
-- Functions
 - NumPy Arrays
 - Pandas Series
 - DataFrames
 - Data Manipulation
-- Data Cleaning Basics
+- Data Cleaning
 
 Contents
 
 - Jupyter Notebook
 - Assignment Document
+- Dataset
 
 ---
 
@@ -108,16 +140,16 @@ Topics covered include:
 - Descriptive Statistics
 - Measures of Central Tendency
 - Measures of Dispersion
-- Correlation Analysis
+- Correlation
+- Covariance
+- Probability Basics
 - Data Distribution
-- Missing Value Handling
-- Data Cleaning
-- Data Preparation
 
 Contents
 
-- Jupyter Notebooks
-- Datasets
+- Jupyter Notebook
+- Assignment Document
+- Dataset
 
 ---
 
@@ -126,12 +158,12 @@ Contents
 Topics covered include:
 
 - Data Exploration
-- Feature Analysis
-- Summary Statistics
-- Distribution Analysis
+- Data Cleaning
+- Missing Value Analysis
 - Outlier Detection
 - Correlation Analysis
-- Exploratory Visualizations
+- Feature Analysis
+- Data Visualization
 
 Contents
 
@@ -145,16 +177,18 @@ Contents
 
 Topics covered include:
 
-- Null and Alternative Hypothesis
-- Confidence Intervals
+- Null Hypothesis
+- Alternative Hypothesis
 - p-value
 - Z-Test
 - T-Test
+- Confidence Interval
 - Statistical Decision Making
 
 Contents
 
 - Jupyter Notebook
+- Assignment Document
 - Reference Material
 
 ---
@@ -163,16 +197,17 @@ Contents
 
 Topics covered include:
 
-- Multiple Linear Regression
+- Linear Regression
 - Feature Selection
 - Model Training
 - Model Evaluation
-- Regression Metrics
+- Performance Metrics
 
 Contents
 
 - Jupyter Notebook
 - Dataset
+- Assignment Document
 - Reference Material
 
 ---
@@ -187,15 +222,17 @@ Topics covered include:
 - Confusion Matrix
 - Precision
 - Recall
-- F1-Score
+- F1 Score
+- ROC Curve
 - ROC-AUC
 
 Contents
 
 - Jupyter Notebook
 - Dataset
+- Assignment Document
 - Reference Material
-- Diabetes Prediction Streamlit Application
+- Streamlit Application
 
 ---
 
@@ -208,11 +245,13 @@ Topics covered include:
 - Feature Scaling
 - Normalization
 - Standardization
+- Feature Engineering
 
 Contents
 
 - Jupyter Notebook
 - Dataset
+- Assignment Document
 - Reference Material
 
 ---
@@ -222,7 +261,9 @@ Contents
 Topics covered include:
 
 - Support Vector Machine
-- Kernel Functions
+- Linear Kernel
+- Polynomial Kernel
+- RBF Kernel
 - Hyperparameter Tuning
 - Model Evaluation
 
@@ -235,25 +276,207 @@ Contents
 
 ---
 
-## Upcoming Modules
+### 10. Decision Tree
 
-The following modules will be added as I continue my learning journey:
+Topics covered include:
 
-- Decision Trees
-- Random Forest
+- Decision Tree Classification
+- Entropy
+- Gini Index
+- Tree Visualization
+- Feature Importance
+- Model Evaluation
+
+Contents
+
+- Jupyter Notebook
+- Dataset
+- Assignment Document
+- Reference Material
+
+---
+
+### 11. Random Forest
+
+Topics covered include:
+
 - Ensemble Learning
+- Random Forest Classification
+- Feature Importance
+- Hyperparameter Tuning
+- Model Evaluation
+
+Contents
+
+- Jupyter Notebook
+- Dataset
+- Assignment Document
+- Reference Material
+
+---
+
+### 12. XGBoost & LightGBM
+
+Topics covered include:
+
+- Gradient Boosting
+- XGBoost
+- LightGBM
+- Boosting Algorithms
+- Model Evaluation
+
+Contents
+
+- Jupyter Notebook
+- Dataset
+- Assignment Document
+- Reference Material
+
+---
+
+### 13. Principal Component Analysis
+
+Topics covered include:
+
 - Dimensionality Reduction
-- Clustering Techniques
+- PCA
+- Explained Variance
+- Feature Transformation
+- Visualization
+
+Contents
+
+- Jupyter Notebook
+- Dataset
+- Assignment Document
+- Reference Material
+
+---
+
+### 14. Clustering
+
+Topics covered include:
+
+- K-Means Clustering
+- Hierarchical Clustering
+- DBSCAN
+- Silhouette Score
+- Cluster Evaluation
+
+Contents
+
+- Jupyter Notebook
+- Dataset
+- Assignment Document
+- Reference Material
+
+---
+
+### 15. Recommendation Systems
+
+Topics covered include:
+
+- Content-Based Filtering
+- Collaborative Filtering
+- Cosine Similarity
+- Recommendation Models
+
+Contents
+
+- Jupyter Notebook
+- Dataset
+- Assignment Document
+- Reference Material
+
+---
+
+### 16. Time Series Forecasting
+
+Topics covered include:
+
 - Time Series Analysis
-- Neural Networks
-- Deep Learning
-- Computer Vision
-- Natural Language Processing
+- Trend Analysis
+- Seasonality
+- Forecasting Models
+- Performance Evaluation
+
+Contents
+
+- Jupyter Notebook
+- Dataset
+- Assignment Document
+- Reference Material
+
+---
+
+### 17. Neural Networks
+
+Topics covered include:
+
+- Artificial Neural Networks
+- Activation Functions
+- Forward Propagation
+- Backpropagation
+- Model Training
+
+Contents
+
+- Jupyter Notebook
+- Dataset
+- Assignment Document
+- Reference Material
+
+---
+
+### 18. Natural Language Processing
+
+Topics covered include:
+
+- Text Preprocessing
+- Tokenization
+- Stopword Removal
+- Stemming
+- Lemmatization
+- Text Classification
+
+Contents
+
+- Jupyter Notebook
+- Dataset
+- Assignment Document
+- Reference Material
+
+---
+
+### 19. Recurrent Neural Networks
+
+Topics covered include:
+
+- Recurrent Neural Networks
+- Sequence Modeling
+- LSTM
+- GRU
+- Text Classification
+
+Contents
+
+- Jupyter Notebook
+- Dataset
+- Assignment Document
+- Reference Material
 
 ---
 
 ## Repository Purpose
 
-This repository serves as a structured record of my continuous learning in Data Science and Machine Learning. Each module reflects practical implementation of concepts through assignments, datasets, coding exercises, and projects while building a strong foundation for real-world applications.
+This repository serves as a structured record of my continuous learning in Data Science, Machine Learning, Deep Learning, and Artificial Intelligence. Each module reflects practical implementation of concepts through assignments, datasets, coding exercises, and projects while building a strong foundation for real-world applications.
 
 The repository will be updated regularly as I complete additional modules and projects.
+
+---
+
+## Author
+
+**Praveen Guvvala**
+
+Aspiring Data Scientist | Machine Learning Enthusiast | Python Developer
